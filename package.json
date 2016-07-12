@@ -1,0 +1,28 @@
+{
+  "name": "make-unique",
+  "version": "1.0.0",
+  "description": "make-unique",
+  "main": "./lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaelzhang/node-make-unique.git"
+  },
+  "keywords": [
+    "make-unique"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "kaelzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/node-make-unique/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.13.0"
+  }
+}
