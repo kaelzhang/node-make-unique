@@ -31,7 +31,7 @@ function contains (array, given, filter) {
 
 
 module.exports = (array, filter) => {
-  if (arguments.length === 1) {
+  if (!filter) {
     return unique(array)
   }
 

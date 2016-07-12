@@ -22,3 +22,10 @@ describe('unique(array, filter)', function () {
     ])
   })
 })
+
+
+describe('unique(array)', function () {
+  it('is implemented by array-uniq', function () {
+    expect(unique([1, 2, 3, 1])).to.deep.equal([1, 2, 3])
+  })
+})
