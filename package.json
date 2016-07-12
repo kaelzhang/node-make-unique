@@ -1,6 +1,6 @@
 {
   "name": "make-unique",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Creates and makes an array without duplicates. Even with array of objects with a specified matcher.",
   "main": "./lib",
   "scripts": {

@@ -35,7 +35,7 @@ unique([1, 2, 3, 1]) // [1, 2, 3]
 ### unique(array, matcher)
 
 - **array** `Array` the input array
-- **matcher** `function(a, b)` if `matcher` returns `true`, then it will treat `a` equal as `b`.
+- **matcher** `function(a, b)` if `matcher` returns `true`, then it will treat `a` equals to `b`.
 
 Cleans an array of objects with a specified filter to tell `unique` how to determine if two items are the 'same'
 
