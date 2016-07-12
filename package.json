@@ -1,7 +1,7 @@
 {
   "name": "make-unique",
-  "version": "1.0.1",
-  "description": "Creates and makes an array without duplicates. Even with array of objects with a specified filter.",
+  "version": "1.0.2",
+  "description": "Creates and makes an array without duplicates. Even with array of objects with a specified matcher.",
   "main": "./lib",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
@@ -16,7 +16,8 @@
     "unique",
     "uniq",
     "set",
-    "duplicate"
+    "duplicate",
+    "object"
   ],
   "engines": {
     "node": ">=0.10.0"

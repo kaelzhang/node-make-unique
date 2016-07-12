@@ -14,7 +14,9 @@
 
 # make-unique
 
-Creates and makes an array without duplicates. Even with array of objects with a specified filter.
+Creates and makes an array without duplicates. Even with array of objects with a specified matcher.
+
+If no `matcher` specified, it will use [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) if `Set` is available in V8.
 
 ## Install
 
