@@ -1,7 +1,7 @@
 {
   "name": "make-unique",
   "version": "1.0.0",
-  "description": "make-unique",
+  "description": "Creates and makes an array without duplicates. Even with array of objects with a specified filter.",
   "main": "./lib",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
@@ -11,7 +11,12 @@
     "url": "git://github.com/kaelzhang/node-make-unique.git"
   },
   "keywords": [
-    "make-unique"
+    "make-unique",
+    "array",
+    "unique",
+    "uniq",
+    "set",
+    "duplicate"
   ],
   "engines": {
     "node": ">=0.10.0"
@@ -24,5 +29,8 @@
   "devDependencies": {
     "chai": "~1.7.2",
     "mocha": "~1.13.0"
+  },
+  "dependencies": {
+    "array-uniq": "^1.0.3"
   }
 }
