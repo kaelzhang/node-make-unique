@@ -14,7 +14,7 @@
 
 # make-unique
 
-<!-- description -->
+Creates and makes an array without duplicates. Even with array of objects with a specified filter.
 
 ## Install
 
@@ -25,7 +25,29 @@ $ npm install make-unique --save
 ## Usage
 
 ```js
-var make_unique = require('make-unique');
+let unique = require('make-unique')
+
+unique([1, 2, 3, 1]) // [1, 2, 3]
+```
+
+### unique(array, matcher)
+
+Cleans an array of objects with a specified filter to tell `unique` how to determine if two items are the 'same'
+
+```js
+unique([
+  {a: 1},
+  {a: 2},
+  {a: 1}
+
+], (a, b) => {
+  // if `a` and `b` contain the same `.a`, they are the 'same'
+  return a.a === b.a
+})
+// [
+//   {a: 1},
+//   {a: 2}
+// ]
 ```
 
 ## License
